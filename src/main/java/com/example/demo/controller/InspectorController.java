@@ -36,7 +36,7 @@ public class InspectorController {
 
 	@GetMapping("/")
 	public String welcome() {
-		return "welcome";
+		return "welcome ";
 	}
 
 	@GetMapping("/load")
