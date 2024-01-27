@@ -32,7 +32,7 @@ public class InspectorController {
 	@Autowired
 	VehicleRepository vehicleRepository;
 	@Autowired
-	OfficerRepository officerRepository;
+	OfficerRepository  officerRepository;
 
 	@GetMapping("/")
 	public String welcome() {
