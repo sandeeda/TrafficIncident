@@ -32,11 +32,11 @@ public class InspectorController {
 	@Autowired
 	VehicleRepository vehicleRepository;
 	@Autowired
-	OfficerRepository officerRepository;
+	OfficerRepository  officerRepository;
 
 	@GetMapping("/")
 	public String welcome() {
-		return "welcome";
+		return "welcome ";
 	}
 
 	@GetMapping("/load")
